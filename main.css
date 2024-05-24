@@ -1,0 +1,178 @@
+h1 {
+    text-align: left;
+    font-size: 30px;
+    font-style: italic;
+    color: red;
+}
+
+p {
+    text-indent: 2em;
+    line-height: 2em;
+    font-size: 20px;
+    font-family: 宋体;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ol,
+li {
+    list-style: none;
+}
+
+li.level1 .text {
+    font-size: 18px;
+    font-weight: 500;
+    vertical-align: top;
+    width: 120px;
+}
+
+li.level2 .text {
+    display: inline-block;
+    line-height: 16px;
+    font-size: 18px;
+    width: 100px;
+    vertical-align: top;
+}
+
+li.level1 .index {
+    display: inline-block;
+    width: 18px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 20px;
+    vertical-align: top;
+    text-align: right;
+    color: #63a0df;
+}
+
+li.level2 .index {
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 5px;
+    width: 5px;
+    line-height: 16px;
+    font-size: 20px;
+    vertical-align: top;
+    color: #ccc;
+}
+
+.box {
+    float: left;
+    padding: 1px;
+}
+.box2 {
+    float: left;
+    width: 50%;
+}
+
+
+.box3 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    height: 200px;
+}
+
+.box4 {
+    float: left;
+    width: 100%;
+}
+
+.box5 {
+    width: 100%;
+    float: left;
+    background-color: rgb(222, 222, 222);
+}
+
+.box5_1 {
+    background-color: #9c9c9c;
+    text-align: center;
+    font-size: 23px;
+}
+
+.box5_2 {
+    width: 100%;
+    float: left;
+    background-color: rgb(206, 206, 206);
+}
+
+.box5_3 {
+    width: 100%;
+    float: left;
+    background-color: rgb(193, 193, 193);
+}
+
+.box5_4 {
+    width: 100%;
+    float: left;
+    background-color: rgb(181, 181, 181);
+}
+
+.box5_5 {
+    width: 100%;
+    float: left;
+    background-color: rgb(170, 170, 170);
+}
+
+.box6 {
+    width: 100%;
+    float: left;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 23px;
+}
+
+.box6_1 {
+    width: 100%;
+    float: left;
+    background-color: rgb(255, 211, 157);
+}
+
+.box6_2 {
+    width: 100%;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.box7 {
+    width: 100%;
+    float: left;
+    background-color: rgb(255, 102, 153);
+}
+
+.box8 {
+    width: 100%;
+    float: left;
+    background-color: rgb(189, 47, 94);
+}
+
+.box9 {
+    width: 100%;
+    float: left;
+    background-color: rgb(238, 226, 226);
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a:link{
+    color:rgb(84, 84, 255);
+}
+
+a:hover{
+    color:rgb(84, 84, 255);
+}
+
+a:active{
+    color:rgb(84, 84, 255);
+}
+
+a:visited{
+    color:rgb(84, 84, 255);
+}
